@@ -6,8 +6,28 @@
 
 #github-container {
   display: flex;
+  flex-direction: row;
 }
 
-ul {
+ul, li{
   list-style: none;
+  text-decoration: none;
+  line-height: 2em;
+}
+
+#repos-list{
+  background-color: aliceblue;
+  margin: 2em 0em;
+}
+
+img{
+  width: 10em;
+  border-radius: 50%;
+}
+
+#user-list{
+  background-color: rgb(245, 240, 240);
+  margin: 2em 0em;
+  width: 30em;
+  text-align: center;
 }
